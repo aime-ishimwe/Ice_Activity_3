@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8d49d;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f8d49d;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .homepage .bg-image {
+    background-image: url('bakery.jpg');
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .about, .products, .contact {
+    margin: 20px 0;
+  }
+  
+  .products .product {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .products .product img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact form label, .contact form input, .contact form textarea {
+    margin: 10px 0;
+  }
+  
+  .contact form button {
+    background-color: #f8d49d;
+    color: #5e2802;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  h1 h2{
+    text-align: center;
+  }
+  
